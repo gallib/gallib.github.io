@@ -1,7 +1,7 @@
 ---
 layout: home
-title: Accueil
-menu: true
+menu: Accueil
+show_menu: true
 order: 1
 ---
 

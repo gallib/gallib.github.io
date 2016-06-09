@@ -2,7 +2,7 @@
 layout: default
 title: Merci
 permalink: /contact-merci/
-order: 3
+show_menu: false
 ---
 
 # Merci !

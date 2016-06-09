@@ -1,8 +1,9 @@
 ---
 layout: contact
-title: Contact
+title: Me contacter
 permalink: /contact/
-menu: true
+menu: Contact
+show_menu: true
 order: 2
 ---
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <div class="content-wrapper row">
+            {% include header.html %}
+            <div class="align-self-stretch columns small-12">
+                <div class="row">
+                    <div class="small-12 medium-6 columns text-center profil-picture align-self-middle">
+                        <img src="{{site.baseurl | prepend: site.url}}/img/alain-pellaux.jpg" alt="Alain Pellaux" />
+                    </div>
+                    <div class="small-12 medium-6 columns">
+                        {{ content }}
+                        <div class="text-center medium-text-left">
+                            {% include social.html %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% include footer.html %}
+        </div>
+
+        {% include script.html %}
+    </body>
+</html>

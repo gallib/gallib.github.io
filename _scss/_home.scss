@@ -1,0 +1,13 @@
+.profil-picture {
+    padding-bottom: 1.5rem;
+
+    img {
+        border-radius: 800px;
+    }
+}
+
+@media screen and (min-width: 40em) {
+    .profil-picture {
+        padding-bottom: 0;
+    }
+}

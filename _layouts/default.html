@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <div class="content-wrapper row">
+            {% include header.html %}
+
+            <div class="small-12 columns">
+                {{ content }}
+            </div>
+
+            {% include footer.html %}
+        </div>
+        {% include script.html %}
+    </body>
+</html>

@@ -1,0 +1,39 @@
+body {
+    background: url(../img/background.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+label {
+    color: $white;
+}
+
+textarea {
+    height: 10rem;
+}
+
+input[type='submit'], input[type='button'] {
+    color: $black;
+}
+
+svg {
+    width: 2.5rem;
+    height: 2.5rem;
+
+    path {
+        fill: #fff;
+    }
+}

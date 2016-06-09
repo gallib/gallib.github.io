@@ -1,0 +1,34 @@
+{
+  "name": "browser-sync-jekyll",
+  "version": "0.0.0",
+  "description": "A starter project including full setup for Jekyll, GulpJS, SASS & BrowserSync",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shane Osbourne",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-shell": "^0.5.2",
+    "imagemin-pngquant": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
+  },
+  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+}

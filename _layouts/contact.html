@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body>
+        <div class="content-wrapper row">
+            {% include header.html %}
+            <div class="small-12 medium-6 columns">
+                {{ content }}
+                <div class="text-center medium-text-left">
+                    {% include social.html %}
+                </div>
+            </div>
+            <div class="small-12 medium-6 columns">
+                {% include contact-form.html %}
+            </div>
+            {% include footer.html %}
+        </div>
+
+        {% include script.html %}
+    </body>
+</html>

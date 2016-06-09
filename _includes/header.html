@@ -1,0 +1,21 @@
+<header class="columns small-12 align-self-top top-bar-wrapper">
+    <div class="title-bar text-right" data-responsive-toggle="main-menu" data-hide-for="medium" style="display:none;">
+        <button class="menu-icon" type="button" data-toggle></button>
+        <div class="title-bar-title">Menu</div>
+    </div>
+
+    <div class="top-bar" id="main-menu">
+        <div class="top-bar-right">
+            <ul class="menu text-center" data-responsive-menu="drilldown medium-dropdown">
+            {% assign sorted_pages = site.pages | sort:"order" | where: "menu", "true" %}
+            {% for node in sorted_pages %}
+                {% if page.url == node.url %}
+                    <li class="active"><a href="{{node.url}}" class="active">{{node.title}}</a></li>
+                {% else %}
+                    <li><a href="{{node.url}}">{{node.title}}</a></li>
+                {% endif %}
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+</header>

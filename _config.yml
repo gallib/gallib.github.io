@@ -10,10 +10,14 @@ title: Alain Pellaux - Développeur web à Genève
 email: contact@alainpellaux.me
 description: > # this means to ignore newlines until "baseurl:"
   Alain Pellaux, je suis un développeur de sites et d'applications web, spécialisé PHP à Genève, en Suisse.
+name: Alain Pellaux
+author: Alain Pellaux
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alain.info" # the base hostname & protocol for your site
-twitter_username: gallib_net
-github_username:  gallib
+
+twitter:
+  username: gallib_net
 
 # Build settings
 markdown: kramdown

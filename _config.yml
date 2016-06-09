@@ -18,4 +18,8 @@ github_username:  gallib
 # Build settings
 markdown: kramdown
 
+# Gems
+gems:
+  - jekyll-seo-tag
+
 exclude: ["node_modules", "gulpfile.js", "package.json"]

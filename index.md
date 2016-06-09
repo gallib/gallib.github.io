@@ -3,6 +3,7 @@ layout: home
 menu: Accueil
 show_menu: true
 order: 1
+image: /img/alain-pellaux.jpg
 ---
 
 # Hello, je m'appelle Alain !

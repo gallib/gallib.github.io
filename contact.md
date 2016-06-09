@@ -5,6 +5,7 @@ permalink: /contact/
 menu: Contact
 show_menu: true
 order: 2
+image: /img/alain-pellaux.jpg
 ---
 
 # Contact

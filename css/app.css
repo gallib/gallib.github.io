@@ -3188,7 +3188,7 @@ table.hover tr:nth-of-type(even):hover {
         transform: translateY(-50%); }
 
 .top-bar {
-  padding: 0.5rem; }
+  padding: 0.5rem 0; }
   .top-bar::before, .top-bar::after {
     content: ' ';
     display: table; }
@@ -3925,9 +3925,6 @@ table.hover tr:nth-of-type(even):hover {
 .long-delay {
   animation-delay: 700ms !important; }
 
-.content-wrapper {
-  min-height: 100%; }
-
 body {
   background: url(../img/background.jpg) no-repeat center fixed;
   background-size: cover;
@@ -3940,8 +3937,21 @@ a {
 p {
   text-align: justify; }
 
-h1 {
-  text-transform: uppercase; }
+h1.title {
+  text-transform: uppercase;
+  margin-bottom: -1.5em; }
+
+h2.subtitle {
+  text-transform: uppercase;
+  color: #cacaca;
+  font-size: 1rem;
+  margin-bottom: 1rem; }
+
+h1.title:after,
+h2.subtitle-justify:after {
+  content: "";
+  display: inline-block;
+  width: 100%; }
 
 label {
   color: #fefefe; }
@@ -3958,11 +3968,12 @@ svg {
   svg path {
     fill: #fff; }
 
+.content-wrapper {
+  min-height: 100%; }
+
 @media screen and (min-width: 40em) {
-  .top-bar-wrapper {
-    width: 100%;
-    /*position:absolute;
-        top: 0;*/ } }
+  h2.subtitle {
+    font-size: 1.2rem; } }
 
 .profil-picture {
   padding-bottom: 1.5rem; }

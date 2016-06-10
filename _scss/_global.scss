@@ -13,8 +13,23 @@ p {
     text-align: justify;
 }
 
-h1 {
+h1.title {
     text-transform: uppercase;
+    margin-bottom: -1.5em;
+}
+
+h2.subtitle {
+    text-transform: uppercase;
+    color: $medium-gray;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+h1.title:after,
+h2.subtitle-justify:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
 }
 
 label {
@@ -35,5 +50,15 @@ svg {
 
     path {
         fill: #fff;
+    }
+}
+
+.content-wrapper {
+    min-height:100%;
+}
+
+@media screen and (min-width: 40em) {
+    h2.subtitle {
+        font-size: 1.2rem;
     }
 }

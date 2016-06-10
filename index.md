@@ -7,7 +7,10 @@ image: /img/alain-pellaux.jpg
 ---
 
 # Hello, je m'appelle Alain !
-{: .text-center .medium-text-justify}
+{: .text-center .medium-text-justify .title}
+
+## Développeur - Papa - Curieux
+{: .text-center .medium-text-justify .subtitle .subtitle-justify}
 
 Je suis un développeur web basé à Genève. Je fais aussi bien du développement back-end que front-end. Fasciné par Internet, j'ai commencé à créer des sites de manière personnelle avant d'en faire mon métier à la fin de mes études en [informatique de gestion](https://www.hesge.ch/heg/formation-base/bachelors-science/informatique-gestion "Informaticien de gestion HES"){: target="_blank"}.
 

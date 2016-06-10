@@ -9,5 +9,9 @@ image: /img/alain-pellaux.jpg
 ---
 
 # Contact
-{: .text-center.medium-text-justify}
+{: .text-center.medium-text-justify .title}
+
+## Un message fait toujours plaisir
+{: .text-center.medium-text-justify .subtitle}
+
 Pour me contacter, les réseaux sociaux, ça fonctionne bien! Mais sinon il reste toujours le bon vieux formulaire.

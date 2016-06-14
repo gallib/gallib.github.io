@@ -14,7 +14,7 @@ name: Alain Pellaux
 author: Alain Pellaux
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://alain.info" # the base hostname & protocol for your site
+url: "https://alain.info" # the base hostname & protocol for your site
 
 twitter:
   username: gallib_net

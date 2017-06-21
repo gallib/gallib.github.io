@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+        <div class="col-12 text-center">
+            <hr class="my-4" />
+            <ul class="menu">
+                {% assign sorted_pages = site.pages | sort:"order" | where: "show_menu", "true" %}
+                {% for node in sorted_pages %}
+                    <li><a href="{{ node.url }}" title="{{ node.title }}">{{node.menu}}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>

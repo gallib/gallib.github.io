@@ -1,0 +1,23 @@
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+sass:
+    load_paths:
+        - _sass
+        - node_modules
+title: Alain Pellaux - Développeur web PHP à Genève
+email: contact@alainpellaux.me
+description: > # this means to ignore newlines until "baseurl:"
+  Alain Pellaux, je suis un développeur de sites et d'applications web, spécialisé PHP à Genève, en Suisse.
+name: Alain Pellaux
+author: Alain Pellaux
+baseurl: ""
+url: "https://alain.info"
+twitter:
+    username: gallib_net
+exclude: ["node_modules", "package.json", "yarn.lock"]

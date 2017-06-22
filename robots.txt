@@ -1,0 +1,14 @@
+---
+layout: null
+permalink: robots.txt
+---
+{% assign noindexPages = site.pages | where: 'sitemap', false %}
+User-agent: *
+{% if noindexPages %}
+{% for node in noindexPages %}
+Disallow: {{ node.url }}
+{% endfor %}
+{% else %}
+Disallow:
+{% endif %}
+sitemap: {{site.url}}/sitemap.xml

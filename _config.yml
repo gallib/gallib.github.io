@@ -3,7 +3,7 @@ defaults:
       path: "assets/img"
     values:
       image: true
-plugins:
+gems:
   - jekyll-seo-tag
   - jekyll-sitemap
 sass:

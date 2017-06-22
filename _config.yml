@@ -21,3 +21,10 @@ url: "https://alain.info"
 twitter:
     username: gallib_net
 exclude: ["node_modules", "package.json", "yarn.lock"]
+social:
+    name: Alain Pellaux
+    links:
+        - https://twitter.com/gallib_net
+        - https://ch.linkedin.com/in/alainpellaux
+        - https://github.com/gallib
+        - https://instagram.com/gallib

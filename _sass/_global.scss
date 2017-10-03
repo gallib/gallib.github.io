@@ -48,7 +48,13 @@ hr {
     }
 }
 
+.content-wrapper {
+    margin: auto;
+}
+
 .profil-picture {
+    margin-top: 1rem;
+
     img {
         max-width: 90%;
         border-radius: 800px;

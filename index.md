@@ -12,4 +12,4 @@ Au quotidien je fait principalement du PHP ([Laravel](https://laravel.com){:targ
 
 Passionné, j'aime expérimenter pour améliorer mes compétences dans ce métier exigeant et qui évolue constamment.
 
-Fier papa d'un merveilleux garçon, je passe mon temps libre à m'occuper de ma famille, en plus de pratiquer la course à pied, la via ferrata et le tambour.
+Fier papa de deux merveilleux garçons, je passe mon temps libre à m'occuper de ma famille, en plus de pratiquer la course à pied, la via ferrata et le tambour.

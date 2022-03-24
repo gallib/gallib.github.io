@@ -9,7 +9,7 @@ export default function Contact() {
                 <title>Alain Pellaux - Me contacter</title>
                 <meta name="og:title" content="Alain Pellaux - Accueil" />
             </Head>
-            <div className="grid grid-cols-2 gap-8 items-center">
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 items-center">
                 <div>
                     <Title />
                 </div>

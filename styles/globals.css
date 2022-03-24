@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .nav-decoration {
+        @apply underline decoration-midred-500 underline-offset-2 decoration-4;
+    }
+}

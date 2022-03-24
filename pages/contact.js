@@ -24,6 +24,7 @@ export default function Contact() {
                         <Link href="mailto:contact@alainpellaux.me">
                             <a>
                                 <Image
+                                    unoptimized
                                     src={envelopLogo}
                                     alt="Me contacter par email"
                                     width={50}

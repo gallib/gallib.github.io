@@ -14,6 +14,7 @@ export default function Title() {
             <Link href="https://github.com/gallib">
                 <a>
                     <Image
+                        unoptimized
                         src={githubLogo}
                         alt="Compte GitHub"
                         width={50}
@@ -24,6 +25,7 @@ export default function Title() {
             <Link href="https://twitter.com/gallib_net">
                 <a className="mx-10">
                     <Image
+                        unoptimized
                         src={twitterLogo}
                         alt="Mon compte Twitter"
                         width={50}
@@ -34,6 +36,7 @@ export default function Title() {
             <Link href="https://ch.linkedin.com/in/alainpellaux">
                 <a>
                     <Image
+                        unoptimized
                         src={linkedinLogo}
                         alt="Mon compte LinkedIn"
                         width={50}

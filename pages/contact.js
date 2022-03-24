@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import Title from '../components/title'
-import envelopLogo from '../public/envelop.svg'
-
+import { prefix } from '../utils/prefix.js';
 
 export default function Contact() {
     return (
@@ -23,12 +21,11 @@ export default function Contact() {
                     <div className="pt-10">
                         <Link href="mailto:contact@alainpellaux.me">
                             <a>
-                                <Image
-                                    unoptimized
-                                    src={envelopLogo}
+                                <img
+                                    src={`${prefix}/envelop.svg`}
                                     alt="Me contacter par email"
-                                    width={50}
-                                    height={50}
+                                    width="50px"
+                                    height="50px"
                                 />
                             </a>
                         </Link>

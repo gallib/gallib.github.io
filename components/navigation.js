@@ -1,16 +1,12 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import logo from '../public/logo.svg'
+import { prefix } from '../utils/prefix.js';
 
 export default function Navigation() {
   return (
     <header className="flex justify-between items-center px-5 py-7">
             <div className="flex w-20 h-20 relative">
-                <Image
-                    layout="fill"
-                    objectFit="fill"
-                    quality={100}
-                    src={logo}
+                <img
+                    src={`${prefix}/logo.svg`}
                     alt="Alain Pellaux"
                 />
             </div>

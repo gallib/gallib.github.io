@@ -1,8 +1,5 @@
 import Link from 'next/link'
-import Image from 'next/image'
-import githubLogo from '../public/github.svg'
-import linkedinLogo from '../public/linkedin.svg'
-import twitterLogo from '../public/twitter.svg'
+import { prefix } from '../utils/prefix.js';
 
 export default function Title() {
   return (
@@ -13,34 +10,34 @@ export default function Title() {
         <div className="mt-10">
             <Link href="https://github.com/gallib">
                 <a>
-                    <Image
-                        unoptimized
-                        src={githubLogo}
-                        alt="Compte GitHub"
-                        width={50}
-                        height={50}
+                    <img
+                        className="inline-block"
+                        src={`${prefix}/github.svg`}
+                        alt="Mon compte GitHub"
+                        width="50px"
+                        height="50px"
                     />
                 </a>
             </Link>
             <Link href="https://twitter.com/gallib_net">
                 <a className="mx-10">
-                    <Image
-                        unoptimized
-                        src={twitterLogo}
+                    <img
+                        className="inline-block"
+                        src={`${prefix}/twitter.svg`}
                         alt="Mon compte Twitter"
-                        width={50}
-                        height={50}
+                        width="50px"
+                        height="50px"
                     />
                 </a>
             </Link>
             <Link href="https://ch.linkedin.com/in/alainpellaux">
                 <a>
-                    <Image
-                        unoptimized
-                        src={linkedinLogo}
+                    <img
+                        className="inline-block"
+                        src={`${prefix}/linkedin.svg`}
                         alt="Mon compte LinkedIn"
-                        width={50}
-                        height={50}
+                        width="50px"
+                        height="50px"
                     />
                 </a>
             </Link>

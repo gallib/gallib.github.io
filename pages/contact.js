@@ -5,7 +5,7 @@ import Title from '../components/title'
 export default function Contact() {
     return (
         <>
-        <Head>
+            <Head>
                 <title>Alain Pellaux - Me contacter</title>
                 <meta name="og:title" content="Alain Pellaux - Accueil" />
             </Head>

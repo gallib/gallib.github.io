@@ -1,7 +1,7 @@
 # alain.info
 
 <p align="center">
-    <img width="40%" src="https://raw.githubusercontent.com/gallib/gallib.github.io/4dc0ae177c8c70df8ec069d3c38d87c710fda971/public/logo.svg" alt="Mon joli logo fait tout seul avec Figma" />
+    <img width="20%" src="https://raw.githubusercontent.com/gallib/gallib.github.io/4dc0ae177c8c70df8ec069d3c38d87c710fda971/public/logo.svg" alt="Mon joli logo fait tout seul avec Figma" />
 </p>
 
 Ceci est mon site personnel. Il ne sert pas à grand chose à part tester des générateurs de sites statiques.

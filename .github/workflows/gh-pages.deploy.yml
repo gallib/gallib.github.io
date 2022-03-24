@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      NEXT_PUBLIC_BASE_PATH: /gallib
+      NEXT_PUBLIC_BASE_PATH:
 
     strategy:
       matrix:

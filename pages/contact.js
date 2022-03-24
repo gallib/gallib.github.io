@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Title from '../components/title'
-import { prefix } from '../utils/prefix.js';
 
 export default function Contact() {
     return (
@@ -22,7 +21,7 @@ export default function Contact() {
                         <Link href="mailto:contact@alainpellaux.me">
                             <a>
                                 <img
-                                    src={`${prefix}/envelop.svg`}
+                                    src="/envelop.svg"
                                     alt="Me contacter par email"
                                     width="50px"
                                     height="50px"

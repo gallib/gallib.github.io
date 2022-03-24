@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import { prefix } from '../utils/prefix.js';
 
 export default function Navigation() {
   return (
     <header className="flex justify-between items-center px-5 py-7">
             <div className="flex w-20 h-20 relative">
                 <img
-                    src={`${prefix}/logo.svg`}
+                    src="/logo.svg"
                     alt="Alain Pellaux"
                 />
             </div>

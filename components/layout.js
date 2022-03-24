@@ -5,7 +5,7 @@ export default function Layout({ children }) {
     <>
         <div className="flex flex-col h-screen max-w-6xl mx-auto">
             <Navigation />
-            <main className="flex flex-grow">{children}</main>
+            <main className="flex flex-grow mx-2 lg:mx-0">{children}</main>
         </div>
     </>
   )

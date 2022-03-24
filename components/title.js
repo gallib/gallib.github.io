@@ -3,8 +3,8 @@ import Link from 'next/link'
 export default function Title() {
     return (
         <>
-            <h2 className="text-8xl text-white uppercase">Alain</h2>
-            <h2 className="text-8xl text-white uppercase">Pellaux</h2>
+            <h2 className="text-6xl md:text-8xl text-white uppercase">Alain</h2>
+            <h2 className="text-6xl md:text-8xl text-white uppercase">Pellaux</h2>
             <div className="w-16 h-2 mt-5 bg-midred-500"></div>
             <div className="mt-10">
                 <Link href="https://github.com/gallib">

@@ -13,3 +13,12 @@ Utiliser React pour un site statique de 2 pages ça sert à rien donc pourquoi p
 ## GitHub pages
 
 Pour publier ce site avec GitHub pages j'ai utilisé les actions de GitHub, ça ressemble à du bricolage mais ça fonctionne. Le setup est très fortement tiré de [cet article](https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/) de Federico Antuña, merci à lui !
+
+## Publier le site
+
+Une fois les modifications faites, il faut faire un build et un export avant de faire le push vers la branche master :
+
+```
+yarn run build
+yarn run export
+```

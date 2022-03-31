@@ -5,8 +5,8 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>Alain Pellaux</title>
-                <meta name="og:title" content="Alain Pellaux - Accueil" />
+                <title>Alain Pellaux - Enseignant et développeur web (PHP, Node.js, React) à Genève, Suisse | Accueil</title>
+                <meta name="og:title" content="Alain Pellaux - Enseignant et développeur web (PHP, Node.js, React) à Genève, Suisse | Accueil" />
             </Head>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 items-center">
                 <div>

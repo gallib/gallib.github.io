@@ -6,8 +6,8 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>Alain Pellaux - Me contacter</title>
-                <meta name="og:title" content="Alain Pellaux - Accueil" />
+                <title>Alain Pellaux - Enseignant et développeur web (PHP, Node.js, React) à Genève, Suisse | Me contacter</title>
+                <meta name="og:title" content="Alain Pellaux - Enseignant et développeur web (PHP, Node.js, React) à Genève, Suisse | Me contacter" />
             </Head>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-8 items-center">
                 <div>
